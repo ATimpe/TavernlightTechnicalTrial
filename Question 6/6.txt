@@ -1,0 +1,19 @@
+// Didn't have time to actually implement anything so I wrote some psudocode for how it might work
+
+// Take in nessesary variables from the program
+in texture player_sprite;
+in int facingDown
+in int facingLeft
+  
+void main()
+{
+    // Create buffers from the texture to make a red glow around the player and duplicate the player sprite to simulate a trail
+
+    // Create Buffer and scale it slightly higher than the player
+
+    // Change the buffer's color to red
+
+    // Create an array of buffer
+
+    // Incement through array and offet each one based on the direction the player is facing and draw each with decreasing opacity
+}
