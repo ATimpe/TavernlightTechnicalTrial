@@ -1,0 +1,12 @@
+MainWindow
+  id: jumpMain
+  !text: tr('')
+  size: 235 215
+
+  Button
+    id: movingButton
+    !text: tr('Jump!')
+    width: 50
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    @onClick: modules.jump.Jump()

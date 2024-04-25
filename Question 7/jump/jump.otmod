@@ -1,0 +1,11 @@
+Module
+  name: jump
+  description: A custom window with a randomly moving button
+  author: arthurtimpe
+  website: https://github.com/ATimpe
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ jump ]
+  @onLoad: init()
+  @onUnload: terminate()
